@@ -14,10 +14,10 @@ function toggleMode() {
   // substituir a imagem
   if (html.classList.constains("light")) {
     // se tver light mode, adcionar a imagem light
-    img.setAttribute("src", "./icones/avatar-light.png")
+    img.setAttribute("src", "../icones/cat-light.jpg")
   } else {
     // se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "./icones/avatar3x.png")
+    img.setAttribute("src", "../icones/star-dark.jpg")
   }
 
   // depois fazer a mesma coisa com o ALT
