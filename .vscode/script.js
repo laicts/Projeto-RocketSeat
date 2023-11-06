@@ -17,8 +17,6 @@ function toggleMode() {
     img.setAttribute("src", "../icones/cat-light.jpg")
   } else {
     // se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "../icones/star-dark.jpg")
+    img.setAttribute("src", "../icones/stars-dark.jpg")
   }
-
-  // depois fazer a mesma coisa com o ALT
 }
